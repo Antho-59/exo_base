@@ -12,7 +12,7 @@ public class Exo52 {
 
         a = b ;
         b = c ;
-        System.out.println(a);
-        System.out.println(b);
+        System.out.println("a = "+a);
+        System.out.println("b = "+b);
     }
 }
