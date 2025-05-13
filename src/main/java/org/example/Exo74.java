@@ -15,7 +15,7 @@ par 100.
         System.out.println("choisis une  année ");
         int annee = scanner.nextInt();
 
-        if (annee%400==0)
+        if (annee % 4 == 0 && annee % 100 != 0)
             System.out.println( "année bissextile");
         else System.out.println("pas bissextile");
     }
