@@ -15,7 +15,7 @@ public class Exo56 {
 
         Scanner scanner =new Scanner(System.in);
         System.out.println("ton texte = ?");
-        String text = scanner.next();
+        String text = scanner.nextLine();
 
         System.out.println(text.toUpperCase());
         System.out.println(text.toLowerCase());
